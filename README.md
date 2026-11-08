@@ -4,7 +4,14 @@ Os formatos de edição de vídeo da Lívia Brasil, prontos para usar no Claude 
 
 ## Como instalar
 
-No Claude Code, digite:
+**No app do Claude (mais fácil):**
+1. No menu do lado, clique em **Customize** (Personalizar) e depois em **Plugins**.
+2. Clique em **Add marketplace** (Adicionar marketplace) e cole: `liviabrasilc/edite-com-ia`
+3. O plugin **edite-com-ia** aparece na lista. Clique em **Install** (Instalar).
+
+Pronto: os formatos ficam salvos na sua conta e funcionam nas suas conversas do Claude.
+
+**No Claude Code (terminal), digite:**
 
 ```
 /plugin marketplace add liviabrasilc/edite-com-ia
