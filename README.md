@@ -4,6 +4,12 @@ Os formatos de edição de vídeo da Lívia Brasil, prontos para usar no Claude 
 
 ## Como instalar
 
+**O jeito mais fácil:** copie a mensagem abaixo e cole numa conversa nova do Claude.
+
+```
+Instale para mim o plugin de edição de vídeo "edite-com-ia" da Lívia Brasil. Rode estes dois comandos: claude plugin marketplace add liviabrasilc/edite-com-ia e depois claude plugin install edite-com-ia@edite-com-ia --scope user. Se aqui você não conseguir rodar comandos, me explique bem simples, um passo de cada vez, como instalar pelo app do Claude: Customize, Plugins, Add marketplace, liviabrasilc/edite-com-ia, Install.
+```
+
 **No app do Claude (mais fácil):**
 1. No menu do lado, clique em **Customize** (Personalizar) e depois em **Plugins**.
 2. Clique em **Add marketplace** (Adicionar marketplace) e cole: `liviabrasilc/edite-com-ia`
