@@ -1,0 +1,406 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "duracao": 4.667,
+   "apresentadoraInicio": 0
+  },
+  {
+   "duracao": 1.383,
+   "apresentadoraInicio": 4.667
+  },
+  {
+   "duracao": 2.708,
+   "apresentadoraInicio": 6.05
+  },
+  {
+   "duracao": 2.559,
+   "apresentadoraInicio": 8.758
+  },
+  {
+   "duracao": 2.791,
+   "apresentadoraInicio": 11.317
+  },
+  {
+   "duracao": 1.325,
+   "apresentadoraInicio": 14.108
+  }
+ ],
+ "titulo": "TOP 10 PRODUTOS",
+ "quantidade": 10,
+ "legendas": [
+  {
+   "texto": "ESSA",
+   "inicio": 0.07,
+   "fim": 0.203
+  },
+  {
+   "texto": "LOJA",
+   "inicio": 0.203,
+   "fim": 0.353
+  },
+  {
+   "texto": "DO",
+   "inicio": 0.353,
+   "fim": 0.503
+  },
+  {
+   "texto": "INTERIOR",
+   "inicio": 0.503,
+   "fim": 0.62
+  },
+  {
+   "texto": "DE",
+   "inicio": 0.62,
+   "fim": 0.686
+  },
+  {
+   "texto": "PERNAMBUCO",
+   "inicio": 0.686,
+   "fim": 1.086
+  },
+  {
+   "texto": "VENDEU",
+   "inicio": 1.086,
+   "fim": 1.57
+  },
+  {
+   "texto": "250",
+   "inicio": 1.57,
+   "fim": 1.903
+  },
+  {
+   "texto": "MIL",
+   "inicio": 1.903,
+   "fim": 2.07
+  },
+  {
+   "texto": "REAIS",
+   "inicio": 2.07,
+   "fim": 2.22
+  },
+  {
+   "texto": "EM",
+   "inicio": 2.22,
+   "fim": 2.453
+  },
+  {
+   "texto": "7",
+   "inicio": 2.453,
+   "fim": 2.686
+  },
+  {
+   "texto": "DIAS",
+   "inicio": 2.686,
+   "fim": 2.87
+  },
+  {
+   "texto": "DEPOIS",
+   "inicio": 2.87,
+   "fim": 2.97
+  },
+  {
+   "texto": "DE",
+   "inicio": 2.97,
+   "fim": 3.153
+  },
+  {
+   "texto": "MUDAR",
+   "inicio": 3.153,
+   "fim": 3.436
+  },
+  {
+   "texto": "UM",
+   "inicio": 3.436,
+   "fim": 3.686
+  },
+  {
+   "texto": "DETALHE",
+   "inicio": 3.686,
+   "fim": 3.92
+  },
+  {
+   "texto": "NOS",
+   "inicio": 3.92,
+   "fim": 4.036
+  },
+  {
+   "texto": "SEUS",
+   "inicio": 4.036,
+   "fim": 4.236
+  },
+  {
+   "texto": "POSTOS",
+   "inicio": 4.236,
+   "fim": 4.386
+  },
+  {
+   "texto": "DE",
+   "inicio": 4.386,
+   "fim": 4.47
+  },
+  {
+   "texto": "VENDA",
+   "inicio": 4.47,
+   "fim": 4.803
+  },
+  {
+   "texto": "O",
+   "inicio": 4.803,
+   "fim": 4.97
+  },
+  {
+   "texto": "INSTAGRAM",
+   "inicio": 4.97,
+   "fim": 5.12
+  },
+  {
+   "texto": "DA",
+   "inicio": 5.12,
+   "fim": 5.186
+  },
+  {
+   "texto": "LOJA",
+   "inicio": 5.186,
+   "fim": 5.403
+  },
+  {
+   "texto": "ESTAVA",
+   "inicio": 5.403,
+   "fim": 5.703
+  },
+  {
+   "texto": "TRAVADO",
+   "inicio": 5.703,
+   "fim": 6.267
+  },
+  {
+   "texto": "ATÉ",
+   "inicio": 6.267,
+   "fim": 6.484
+  },
+  {
+   "texto": "APLICAR",
+   "inicio": 6.484,
+   "fim": 6.95
+  },
+  {
+   "texto": "ESSA",
+   "inicio": 6.95,
+   "fim": 7.117
+  },
+  {
+   "texto": "AÇÃO",
+   "inicio": 7.117,
+   "fim": 7.334
+  },
+  {
+   "texto": "DE",
+   "inicio": 7.334,
+   "fim": 7.534
+  },
+  {
+   "texto": "VENDAS,",
+   "inicio": 7.534,
+   "fim": 7.734
+  },
+  {
+   "texto": "QUE",
+   "inicio": 7.734,
+   "fim": 7.784
+  },
+  {
+   "texto": "EU",
+   "inicio": 7.784,
+   "fim": 7.9
+  },
+  {
+   "texto": "CHAMO",
+   "inicio": 7.9,
+   "fim": 8.017
+  },
+  {
+   "texto": "DE",
+   "inicio": 8.017,
+   "fim": 8.234
+  },
+  {
+   "texto": "LUCRO",
+   "inicio": 8.234,
+   "fim": 8.5
+  },
+  {
+   "texto": "METEÓRICO",
+   "inicio": 8.5,
+   "fim": 8.872
+  },
+  {
+   "texto": "OU",
+   "inicio": 8.872,
+   "fim": 9.039
+  },
+  {
+   "texto": "SEJA,",
+   "inicio": 9.039,
+   "fim": 9.539
+  },
+  {
+   "texto": "RESULTADO,",
+   "inicio": 9.539,
+   "fim": 9.905
+  },
+  {
+   "texto": "SETE",
+   "inicio": 9.905,
+   "fim": 10.205
+  },
+  {
+   "texto": "DIAS,",
+   "inicio": 10.205,
+   "fim": 10.505
+  },
+  {
+   "texto": "250",
+   "inicio": 10.505,
+   "fim": 10.855
+  },
+  {
+   "texto": "MIL",
+   "inicio": 10.855,
+   "fim": 11.089
+  },
+  {
+   "texto": "REAIS",
+   "inicio": 11.089,
+   "fim": 11.484
+  },
+  {
+   "texto": "HOJE",
+   "inicio": 11.484,
+   "fim": 11.551
+  },
+  {
+   "texto": "A",
+   "inicio": 11.551,
+   "fim": 11.634
+  },
+  {
+   "texto": "LOJA",
+   "inicio": 11.634,
+   "fim": 11.784
+  },
+  {
+   "texto": "JÁ",
+   "inicio": 11.784,
+   "fim": 11.834
+  },
+  {
+   "texto": "ESTÁ",
+   "inicio": 11.834,
+   "fim": 11.934
+  },
+  {
+   "texto": "COM",
+   "inicio": 11.934,
+   "fim": 12.251
+  },
+  {
+   "texto": "40",
+   "inicio": 12.251,
+   "fim": 12.368
+  },
+  {
+   "texto": "MIL",
+   "inicio": 12.368,
+   "fim": 12.568
+  },
+  {
+   "texto": "SEGUIDORES,",
+   "inicio": 12.568,
+   "fim": 13.201
+  },
+  {
+   "texto": "BOMBANDO",
+   "inicio": 13.201,
+   "fim": 13.534
+  },
+  {
+   "texto": "NA",
+   "inicio": 13.534,
+   "fim": 13.818
+  },
+  {
+   "texto": "REGIÃO",
+   "inicio": 13.818,
+   "fim": 14.142
+  },
+  {
+   "texto": "DIGITA",
+   "inicio": 14.142,
+   "fim": 14.575
+  },
+  {
+   "texto": "BLACK",
+   "inicio": 14.575,
+   "fim": 14.858
+  },
+  {
+   "texto": "QUE",
+   "inicio": 14.858,
+   "fim": 14.942
+  },
+  {
+   "texto": "EU",
+   "inicio": 14.942,
+   "fim": 15.008
+  },
+  {
+   "texto": "TE",
+   "inicio": 15.008,
+   "fim": 15.158
+  },
+  {
+   "texto": "ENVIO",
+   "inicio": 15.158,
+   "fim": 15.433
+  }
+ ],
+ "legendaTopo": 1135,
+ "itens": [
+  {
+   "imagem": "exemplo-produtos/produto-a.png",
+   "proporcao": 1.154,
+   "posicao": 10,
+   "entra": 1.0,
+   "voa": 3.0
+  },
+  {
+   "imagem": "exemplo-produtos/produto-b.png",
+   "proporcao": 2.733,
+   "posicao": 9,
+   "entra": 4.8,
+   "voa": 6.6
+  },
+  {
+   "imagem": "exemplo-produtos/produto-c.png",
+   "proporcao": 0.457,
+   "posicao": 8,
+   "entra": 8.9,
+   "voa": 10.6
+  },
+  {
+   "imagem": "exemplo-produtos/produto-d.png",
+   "proporcao": 1.154,
+   "posicao": 7,
+   "entra": 11.4,
+   "voa": 13.3
+  }
+ ],
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ },
+ "produtoTopo": 1215
+}

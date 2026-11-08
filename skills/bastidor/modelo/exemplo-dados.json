@@ -1,0 +1,418 @@
+{
+ "narracao": {
+  "arquivo": "apresentadora-ec.mp4",
+  "inicio": 0
+ },
+ "takes": [
+  {
+   "arquivo": "seg2/s3.mov",
+   "inicio": 0,
+   "duracao": 1.09
+  },
+  {
+   "arquivo": "insercao-ec.mp4",
+   "inicio": 0.5,
+   "duracao": 0.98
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "inicio": 1,
+   "duracao": 0.8
+  },
+  {
+   "arquivo": "seg2/s2.mov",
+   "inicio": 0.3,
+   "duracao": 1.05
+  },
+  {
+   "arquivo": "broll-bastidor.mp4",
+   "inicio": 2.5,
+   "duracao": 0.88
+  },
+  {
+   "arquivo": "seg2/s3.mov",
+   "inicio": 0.5,
+   "duracao": 0.9
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "inicio": 4,
+   "duracao": 0.57
+  },
+  {
+   "arquivo": "seg2/s4.mov",
+   "inicio": 0.5,
+   "duracao": 1.06
+  },
+  {
+   "arquivo": "broll-bastidor.mp4",
+   "inicio": 5,
+   "duracao": 0.9
+  },
+  {
+   "arquivo": "seg2/s1.mov",
+   "inicio": 0,
+   "duracao": 0.64
+  },
+  {
+   "arquivo": "seg2/s5.mov",
+   "inicio": 0,
+   "duracao": 1.03
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "inicio": 7,
+   "duracao": 0.96
+  },
+  {
+   "arquivo": "seg2/s0.mov",
+   "inicio": 2.5,
+   "duracao": 0.62
+  },
+  {
+   "arquivo": "noticia-teste.mp4",
+   "inicio": 2,
+   "duracao": 1.09
+  },
+  {
+   "arquivo": "seg2/s2.mov",
+   "inicio": 1.8,
+   "duracao": 0.63
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "inicio": 10,
+   "duracao": 0.94
+  },
+  {
+   "arquivo": "seg2/s3.mov",
+   "inicio": 1.5,
+   "duracao": 1.293
+  },
+  {
+   "arquivo": "seg2/s4.mov",
+   "inicio": 0.6,
+   "duracao": 2.5
+  }
+ ],
+ "gancho": [
+  {
+   "texto": "essa",
+   "inicio": 0.0,
+   "fim": 0.203
+  },
+  {
+   "texto": "loja",
+   "inicio": 0.203,
+   "fim": 0.353
+  },
+  {
+   "texto": "do",
+   "inicio": 0.353,
+   "fim": 0.503
+  },
+  {
+   "texto": "interior",
+   "inicio": 0.503,
+   "fim": 0.62
+  },
+  {
+   "texto": "de",
+   "inicio": 0.62,
+   "fim": 0.686
+  },
+  {
+   "texto": "pernambuco",
+   "inicio": 0.686,
+   "fim": 1.09
+  }
+ ],
+ "valor": {
+  "linha1": "vendeu",
+  "linha2": "R$ 250 mil",
+  "inicio": 1.09,
+  "fim": 2.87,
+  "moeda": true
+ },
+ "legendas": [
+  {
+   "texto": "depois",
+   "inicio": 2.87,
+   "fim": 2.97
+  },
+  {
+   "texto": "de",
+   "inicio": 2.97,
+   "fim": 3.153
+  },
+  {
+   "texto": "mudar",
+   "inicio": 3.153,
+   "fim": 3.436
+  },
+  {
+   "texto": "um",
+   "inicio": 3.436,
+   "fim": 3.686
+  },
+  {
+   "texto": "detalhe",
+   "inicio": 3.686,
+   "fim": 3.92
+  },
+  {
+   "texto": "nos",
+   "inicio": 3.92,
+   "fim": 4.036
+  },
+  {
+   "texto": "seus",
+   "inicio": 4.036,
+   "fim": 4.236
+  },
+  {
+   "texto": "postos",
+   "inicio": 4.236,
+   "fim": 4.386
+  },
+  {
+   "texto": "de",
+   "inicio": 4.386,
+   "fim": 4.47
+  },
+  {
+   "texto": "venda",
+   "inicio": 4.47,
+   "fim": 4.803
+  },
+  {
+   "texto": "o",
+   "inicio": 4.803,
+   "fim": 4.97
+  },
+  {
+   "texto": "Instagram",
+   "inicio": 4.97,
+   "fim": 5.12
+  },
+  {
+   "texto": "da",
+   "inicio": 5.12,
+   "fim": 5.186
+  },
+  {
+   "texto": "loja",
+   "inicio": 5.186,
+   "fim": 5.403
+  },
+  {
+   "texto": "estava",
+   "inicio": 5.403,
+   "fim": 5.703
+  },
+  {
+   "texto": "travado",
+   "inicio": 5.703,
+   "fim": 6.267
+  },
+  {
+   "texto": "até",
+   "inicio": 6.267,
+   "fim": 6.484
+  },
+  {
+   "texto": "aplicar",
+   "inicio": 6.484,
+   "fim": 6.95
+  },
+  {
+   "texto": "essa",
+   "inicio": 6.95,
+   "fim": 7.117
+  },
+  {
+   "texto": "ação",
+   "inicio": 7.117,
+   "fim": 7.334
+  },
+  {
+   "texto": "de",
+   "inicio": 7.334,
+   "fim": 7.534
+  },
+  {
+   "texto": "vendas",
+   "inicio": 7.534,
+   "fim": 7.734
+  },
+  {
+   "texto": "que",
+   "inicio": 7.734,
+   "fim": 7.784
+  },
+  {
+   "texto": "eu",
+   "inicio": 7.784,
+   "fim": 7.9
+  },
+  {
+   "texto": "chamo",
+   "inicio": 7.9,
+   "fim": 8.017
+  },
+  {
+   "texto": "de",
+   "inicio": 8.017,
+   "fim": 8.234
+  },
+  {
+   "texto": "lucro",
+   "inicio": 8.234,
+   "fim": 8.5
+  },
+  {
+   "texto": "meteórico",
+   "inicio": 8.5,
+   "fim": 8.872
+  },
+  {
+   "texto": "ou",
+   "inicio": 8.872,
+   "fim": 9.039
+  },
+  {
+   "texto": "seja",
+   "inicio": 9.039,
+   "fim": 9.539
+  },
+  {
+   "texto": "resultado",
+   "inicio": 9.539,
+   "fim": 9.905
+  },
+  {
+   "texto": "sete",
+   "inicio": 9.905,
+   "fim": 10.205
+  },
+  {
+   "texto": "dias",
+   "inicio": 10.205,
+   "fim": 10.505
+  },
+  {
+   "texto": "250",
+   "inicio": 10.505,
+   "fim": 10.855
+  },
+  {
+   "texto": "mil",
+   "inicio": 10.855,
+   "fim": 11.089
+  },
+  {
+   "texto": "reais",
+   "inicio": 11.089,
+   "fim": 11.484
+  },
+  {
+   "texto": "hoje",
+   "inicio": 11.484,
+   "fim": 11.551
+  },
+  {
+   "texto": "a",
+   "inicio": 11.551,
+   "fim": 11.634
+  },
+  {
+   "texto": "loja",
+   "inicio": 11.634,
+   "fim": 11.784
+  },
+  {
+   "texto": "já",
+   "inicio": 11.784,
+   "fim": 11.834
+  },
+  {
+   "texto": "está",
+   "inicio": 11.834,
+   "fim": 11.934
+  },
+  {
+   "texto": "com",
+   "inicio": 11.934,
+   "fim": 12.251
+  },
+  {
+   "texto": "40",
+   "inicio": 12.251,
+   "fim": 12.368
+  },
+  {
+   "texto": "mil",
+   "inicio": 12.368,
+   "fim": 12.568
+  },
+  {
+   "texto": "seguidores",
+   "inicio": 12.568,
+   "fim": 13.201
+  },
+  {
+   "texto": "bombando",
+   "inicio": 13.201,
+   "fim": 13.534
+  },
+  {
+   "texto": "na",
+   "inicio": 13.534,
+   "fim": 13.818
+  },
+  {
+   "texto": "região",
+   "inicio": 13.818,
+   "fim": 14.142
+  },
+  {
+   "texto": "digita",
+   "inicio": 14.142,
+   "fim": 14.575
+  },
+  {
+   "texto": "black",
+   "inicio": 14.575,
+   "fim": 14.858
+  },
+  {
+   "texto": "que",
+   "inicio": 14.858,
+   "fim": 14.942
+  },
+  {
+   "texto": "eu",
+   "inicio": 14.942,
+   "fim": 15.008
+  },
+  {
+   "texto": "te",
+   "inicio": 15.008,
+   "fim": 15.158
+  },
+  {
+   "texto": "envio",
+   "inicio": 15.158,
+   "fim": 15.433
+  }
+ ],
+ "legendaCentro": 1230,
+ "trilha": {
+  "inicio": 15.433,
+  "fim": 17.933
+ },
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

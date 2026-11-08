@@ -1,0 +1,128 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "duracao": 4.667,
+   "apresentadoraInicio": 0,
+   "zoom": 1
+  },
+  {
+   "duracao": 1.383,
+   "apresentadoraInicio": 4.667,
+   "zoom": 1.15
+  },
+  {
+   "duracao": 2.708,
+   "apresentadoraInicio": 6.05,
+   "zoom": 1
+  },
+  {
+   "duracao": 2.559,
+   "apresentadoraInicio": 8.758,
+   "zoom": 1.15
+  },
+  {
+   "duracao": 2.791,
+   "apresentadoraInicio": 11.317,
+   "zoom": 1
+  },
+  {
+   "duracao": 1.325,
+   "apresentadoraInicio": 14.108,
+   "zoom": 1.15
+  }
+ ],
+ "gancho": {
+  "texto": "Essa loja do interior de\nPernambuco vendeu 250\nmil reais em 7 dias depois\nde mudar um detalhe nos\nseus postos de venda",
+  "fim": 4.803
+ },
+ "legendas": [
+  {
+   "texto": "O Instagram da loja",
+   "inicio": 4.803,
+   "fim": 5.403
+  },
+  {
+   "texto": "estava travado",
+   "inicio": 5.403,
+   "fim": 6.267
+  },
+  {
+   "texto": "Até aplicar essa ação",
+   "inicio": 6.267,
+   "fim": 7.334
+  },
+  {
+   "texto": "de vendas,",
+   "inicio": 7.334,
+   "fim": 7.734
+  },
+  {
+   "texto": "que eu chamo de",
+   "inicio": 7.734,
+   "fim": 8.234
+  },
+  {
+   "texto": "lucro meteórico",
+   "inicio": 8.234,
+   "fim": 8.872
+  },
+  {
+   "texto": "Ou seja,",
+   "inicio": 8.872,
+   "fim": 9.539
+  },
+  {
+   "texto": "resultado,",
+   "inicio": 9.539,
+   "fim": 9.905
+  },
+  {
+   "texto": "sete dias,",
+   "inicio": 9.905,
+   "fim": 10.505
+  },
+  {
+   "texto": "250 mil reais",
+   "inicio": 10.505,
+   "fim": 11.484
+  },
+  {
+   "texto": "Hoje a loja já",
+   "inicio": 11.484,
+   "fim": 11.834
+  },
+  {
+   "texto": "está com 40 mil",
+   "inicio": 11.834,
+   "fim": 12.568
+  },
+  {
+   "texto": "seguidores,",
+   "inicio": 12.568,
+   "fim": 13.201
+  },
+  {
+   "texto": "bombando na região",
+   "inicio": 13.201,
+   "fim": 14.142
+  },
+  {
+   "texto": "Digita black que eu",
+   "inicio": 14.142,
+   "fim": 15.008
+  },
+  {
+   "texto": "te envio",
+   "inicio": 15.008,
+   "fim": 15.433
+  }
+ ],
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ },
+ "legendaTopo": 1220
+}

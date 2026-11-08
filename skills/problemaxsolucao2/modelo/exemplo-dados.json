@@ -1,0 +1,107 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "duracao": 4.667,
+   "apresentadoraInicio": 0
+  },
+  {
+   "duracao": 1.383,
+   "apresentadoraInicio": 4.667
+  },
+  {
+   "duracao": 2.708,
+   "apresentadoraInicio": 6.05
+  },
+  {
+   "duracao": 2.559,
+   "apresentadoraInicio": 8.758
+  },
+  {
+   "duracao": 2.791,
+   "apresentadoraInicio": 11.317
+  },
+  {
+   "duracao": 1.325,
+   "apresentadoraInicio": 14.108
+  }
+ ],
+ "arroba": "@liviabrasilc",
+ "colunas": [
+  "PROBLEMA",
+  "SOLUÇÃO"
+ ],
+ "linhas": [
+  {
+   "esquerda": {
+    "texto": "LOJA DO INTERIOR",
+    "aparece": 0.2
+   },
+   "direita": {
+    "texto": "MUDAR UM DETALHE",
+    "aparece": 3.15
+   }
+  },
+  {
+   "esquerda": {
+    "texto": "INSTAGRAM TRAVADO",
+    "aparece": 4.97
+   },
+   "direita": {
+    "texto": "AÇÃO DE VENDAS",
+    "aparece": 7.12
+   }
+  },
+  {
+   "esquerda": {
+    "texto": "RESULTADO",
+    "aparece": 9.54
+   },
+   "direita": {
+    "texto": "250 MIL REAIS",
+    "aparece": 10.51
+   }
+  }
+ ],
+ "tabelaTopo": 1120,
+ "tabelaFim": 11.48,
+ "legendas": [
+  {
+   "texto": "HOJE A LOJA",
+   "inicio": 11.48,
+   "fim": 11.78
+  },
+  {
+   "texto": "JÁ ESTÁ COM",
+   "inicio": 11.78,
+   "fim": 12.25
+  },
+  {
+   "texto": "40 MIL SEGUIDORES,",
+   "inicio": 12.25,
+   "fim": 13.2
+  },
+  {
+   "texto": "BOMBANDO NA REGIÃO",
+   "inicio": 13.2,
+   "fim": 14.14
+  },
+  {
+   "texto": "DIGITA BLACK",
+   "inicio": 14.14,
+   "fim": 14.86
+  },
+  {
+   "texto": "QUE EU TE ENVIO",
+   "inicio": 14.86,
+   "fim": 15.433
+  }
+ ],
+ "legendaTopo": 1215,
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

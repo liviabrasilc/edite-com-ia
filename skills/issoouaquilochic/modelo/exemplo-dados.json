@@ -1,0 +1,51 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "duracao": 15.433,
+   "apresentadoraInicio": 0
+  }
+ ],
+ "titulo": [
+  "VALE A PENA ✅",
+  "NÃO VALE A PENA ❌"
+ ],
+ "itens": [
+  {
+   "imagem": "lista/produto-a.png",
+   "etiqueta": "VALE A PENA ✅",
+   "entra": 0.2,
+   "veredito": 1.09,
+   "sai": 4.5
+  },
+  {
+   "imagem": "lista/produto-b.png",
+   "etiqueta": "NÃO VALE ❌",
+   "entra": 4.8,
+   "veredito": 6.27,
+   "sai": 8.57
+  },
+  {
+   "imagem": "lista/produto-c.png",
+   "etiqueta": "LUXO 💎",
+   "entra": 8.87,
+   "veredito": 9.9,
+   "sai": 11.18
+  },
+  {
+   "imagem": "lista/produto-d.png",
+   "etiqueta": "VALE A PENA ✅",
+   "entra": 11.48,
+   "veredito": 12.57,
+   "sai": 14.0
+  }
+ ],
+ "cartaoTopo": 1132,
+ "ctaTopo": 1132,
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

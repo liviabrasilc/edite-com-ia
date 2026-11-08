@@ -1,0 +1,175 @@
+{
+ "duracao": 15.433,
+ "duvida": {
+  "arquivo": "duvida.mp4",
+  "inicio": 0
+ },
+ "resposta": {
+  "arquivo": "resposta.mp4",
+  "inicio": 0
+ },
+ "titulo": "Não pule este vídeo 🚨",
+ "subtitulo": "Vendendo 250 mil em 7 dias",
+ "frases": [
+  {
+   "linhas": [
+    "Essa loja do",
+    "interior de"
+   ],
+   "inicio": 0.07,
+   "fim": 0.686,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "Pernambuco",
+    "vendeu 250 mil"
+   ],
+   "inicio": 0.686,
+   "fim": 2.07,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "reais em 7 dias",
+    "depois de mudar"
+   ],
+   "inicio": 2.07,
+   "fim": 3.436,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "um detalhe nos",
+    "seus postos de"
+   ],
+   "inicio": 3.436,
+   "fim": 4.47,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "venda"
+   ],
+   "inicio": 4.47,
+   "fim": 4.803,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "O Instagram da",
+    "loja estava"
+   ],
+   "inicio": 4.803,
+   "fim": 5.703,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "travado"
+   ],
+   "inicio": 5.703,
+   "fim": 6.267,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "até aplicar",
+    "essa ação de"
+   ],
+   "inicio": 6.267,
+   "fim": 7.534,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "vendas,"
+   ],
+   "inicio": 7.534,
+   "fim": 7.734,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "que eu chamo de",
+    "lucro meteórico"
+   ],
+   "inicio": 7.734,
+   "fim": 8.872,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "Ou seja,"
+   ],
+   "inicio": 8.872,
+   "fim": 9.539,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "resultado,"
+   ],
+   "inicio": 9.539,
+   "fim": 9.905,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "sete dias,"
+   ],
+   "inicio": 9.905,
+   "fim": 10.505,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "250 mil reais"
+   ],
+   "inicio": 10.505,
+   "fim": 11.484,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "Hoje a loja já",
+    "está com 40 mil"
+   ],
+   "inicio": 11.484,
+   "fim": 12.568,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "seguidores,"
+   ],
+   "inicio": 12.568,
+   "fim": 13.201,
+   "lado": "resposta"
+  },
+  {
+   "linhas": [
+    "bombando na",
+    "região"
+   ],
+   "inicio": 13.201,
+   "fim": 14.142,
+   "lado": "duvida"
+  },
+  {
+   "linhas": [
+    "digita black",
+    "que eu te envio"
+   ],
+   "inicio": 14.142,
+   "fim": 15.433,
+   "lado": "duvida"
+  }
+ ],
+ "legendaTopo": 1360,
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142,
+  "lado": "duvida"
+ }
+}

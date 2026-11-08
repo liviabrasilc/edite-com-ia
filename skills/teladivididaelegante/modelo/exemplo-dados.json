@@ -1,0 +1,216 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "tipo": "dividida",
+   "duracao": 4.667,
+   "apresentadoraInicio": 0,
+   "midia": "broll-bastidor.mp4",
+   "pessoaDeslocY": -250
+  },
+  {
+   "tipo": "apresentadora",
+   "duracao": 1.389,
+   "apresentadoraInicio": 4.667,
+   "zoom": 1
+  },
+  {
+   "tipo": "apresentadora",
+   "duracao": 2.722,
+   "apresentadoraInicio": 6.056,
+   "zoom": 1.12
+  },
+  {
+   "tipo": "dividida",
+   "duracao": 2.583,
+   "apresentadoraInicio": 8.778,
+   "midia": "broll-visualizacao.png",
+   "enquadramento": "50% 30%",
+   "pessoaDeslocY": -250
+  },
+  {
+   "tipo": "apresentadora",
+   "duracao": 2.806,
+   "apresentadoraInicio": 11.361,
+   "zoom": 1
+  },
+  {
+   "tipo": "apresentadora",
+   "duracao": 1.266,
+   "apresentadoraInicio": 14.167,
+   "zoom": 1.12
+  }
+ ],
+ "legendas": [
+  {
+   "texto": "ESSA LOJA DO",
+   "inicio": 0,
+   "fim": 0.503
+  },
+  {
+   "texto": "INTERIOR DE PERNAMBUCO",
+   "inicio": 0.503,
+   "fim": 1.086
+  },
+  {
+   "texto": "VENDEU 250 MIL",
+   "inicio": 1.086,
+   "fim": 2.07
+  },
+  {
+   "texto": "REAIS EM 7",
+   "inicio": 2.07,
+   "fim": 2.686
+  },
+  {
+   "texto": "DIAS DEPOIS DE",
+   "inicio": 2.686,
+   "fim": 3.153
+  },
+  {
+   "texto": "MUDAR UM DETALHE",
+   "inicio": 3.153,
+   "fim": 3.92
+  },
+  {
+   "texto": "NOS SEUS POSTS",
+   "inicio": 3.92,
+   "fim": 4.386
+  },
+  {
+   "texto": "DE VENDA.",
+   "inicio": 4.386,
+   "fim": 4.803
+  },
+  {
+   "texto": "O INSTAGRAM DA",
+   "inicio": 4.803,
+   "fim": 5.186
+  },
+  {
+   "texto": "LOJA ESTAVA TRAVADO.",
+   "inicio": 5.186,
+   "fim": 6.272
+  },
+  {
+   "texto": "ATÉ APLICAR ESSA",
+   "inicio": 6.272,
+   "fim": 7.122
+  },
+  {
+   "texto": "AÇÃO DE VENDAS,",
+   "inicio": 7.122,
+   "fim": 7.739
+  },
+  {
+   "texto": "QUE EU CHAMO DE",
+   "inicio": 7.739,
+   "fim": 8.239
+  },
+  {
+   "texto": "OU SEJA,",
+   "inicio": 8.891,
+   "fim": 9.558
+  },
+  {
+   "texto": "RESULTADO,",
+   "inicio": 9.558,
+   "fim": 9.925
+  },
+  {
+   "texto": "SETE DIAS,",
+   "inicio": 9.925,
+   "fim": 10.525
+  },
+  {
+   "texto": "HOJE A LOJA",
+   "inicio": 11.529,
+   "fim": 11.829
+  },
+  {
+   "texto": "JÁ ESTÁ COM",
+   "inicio": 11.829,
+   "fim": 12.295
+  },
+  {
+   "texto": "BOMBANDO NA REGIÃO.",
+   "inicio": 13.245,
+   "fim": 14.2
+  },
+  {
+   "texto": "DIGITA BLACK QUE",
+   "inicio": 14.2,
+   "fim": 15.0
+  },
+  {
+   "texto": "EU TE ENVIO.",
+   "inicio": 15.0,
+   "fim": 15.433
+  }
+ ],
+ "titulos": [
+  {
+   "palavras": [
+    {
+     "texto": "LUCRO",
+     "inicio": 8.239
+    },
+    {
+     "texto": "METEÓRICO",
+     "inicio": 8.506
+    }
+   ],
+   "fim": 8.778,
+   "estilo": "italico",
+   "cor": "#FFFFFF",
+   "tamanho": 104
+  },
+  {
+   "palavras": [
+    {
+     "texto": "250",
+     "inicio": 10.528
+    },
+    {
+     "texto": "MIL",
+     "inicio": 10.878
+    },
+    {
+     "texto": "REAIS",
+     "inicio": 11.061
+    }
+   ],
+   "fim": 11.361,
+   "estilo": "condensado",
+   "cor": "#E2741B",
+   "tamanho": 118
+  },
+  {
+   "palavras": [
+    {
+     "texto": "40",
+     "inicio": 12.294
+    },
+    {
+     "texto": "MIL",
+     "inicio": 12.411
+    },
+    {
+     "texto": "SEGUIDORES",
+     "inicio": 12.611
+    }
+   ],
+   "fim": 14.167,
+   "estilo": "italico",
+   "cor": "#FFFFFF",
+   "tamanho": 112
+  }
+ ],
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.167
+ },
+ "queixoY": 1060
+}

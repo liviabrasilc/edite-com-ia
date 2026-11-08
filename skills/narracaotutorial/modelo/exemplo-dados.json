@@ -1,0 +1,331 @@
+{
+ "narracao": {
+  "arquivo": "apresentadora-ec.mp4",
+  "inicio": 0
+ },
+ "takes": [
+  {
+   "arquivo": "seg2/s0.mov",
+   "duracao": 1.7,
+   "inicio": 0
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "duracao": 1.6,
+   "inicio": 1
+  },
+  {
+   "arquivo": "seg2/s2.mov",
+   "duracao": 1.5,
+   "inicio": 0.3
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "duracao": 1.6,
+   "inicio": 9
+  },
+  {
+   "arquivo": "seg2/s3.mov",
+   "duracao": 1.4,
+   "inicio": 0.5
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "duracao": 1.6,
+   "inicio": 6
+  },
+  {
+   "arquivo": "seg2/s4.mov",
+   "duracao": 1.6,
+   "inicio": 0.5
+  },
+  {
+   "arquivo": "seg2/s1.mov",
+   "duracao": 1.6,
+   "inicio": 0
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "duracao": 1.4,
+   "inicio": 10
+  },
+  {
+   "arquivo": "seg2/s0.mov",
+   "duracao": 1.433,
+   "inicio": 3.5
+  }
+ ],
+ "arroba": "@liviabrasilc",
+ "titulo": {
+  "linhas": [
+   {
+    "texto": "Essa loja do",
+    "estilo": "script"
+   },
+   {
+    "texto": "INTERIOR",
+    "estilo": "grande",
+    "emojiAntes": "🚨",
+    "emojiDepois": "🚨"
+   },
+   {
+    "texto": "de Pernambuco",
+    "estilo": "fina"
+   }
+  ],
+  "fim": 1.09
+ },
+ "gancho": {
+  "linhas": [
+   {
+    "texto": "vendeu 250 mil",
+    "estilo": "script",
+    "emojiDepois": "✨",
+    "inicio": 1.09
+   },
+   {
+    "texto": "EM 7 DIAS",
+    "estilo": "grande",
+    "emojiAntes": "🔥",
+    "emojiDepois": "🔥",
+    "inicio": 2.22
+   },
+   {
+    "texto": "depois de mudar um detalhe",
+    "estilo": "caixa",
+    "inicio": 2.87
+   },
+   {
+    "texto": "nos seus postos de venda!",
+    "estilo": "script",
+    "emojiDepois": "😳",
+    "inicio": 3.92
+   }
+  ],
+  "fim": 4.8,
+  "brilho": true
+ },
+ "legendas": [
+  {
+   "palavras": [
+    {
+     "texto": "o",
+     "inicio": 4.803
+    },
+    {
+     "texto": "Instagram",
+     "inicio": 4.97
+    },
+    {
+     "texto": "da",
+     "inicio": 5.12
+    },
+    {
+     "texto": "loja",
+     "inicio": 5.186
+    },
+    {
+     "texto": "estava",
+     "inicio": 5.403
+    },
+    {
+     "texto": "travado",
+     "inicio": 5.703
+    }
+   ],
+   "fim": 6.27
+  },
+  {
+   "palavras": [
+    {
+     "texto": "até",
+     "inicio": 6.267
+    },
+    {
+     "texto": "aplicar",
+     "inicio": 6.484
+    },
+    {
+     "texto": "essa",
+     "inicio": 6.95
+    },
+    {
+     "texto": "ação",
+     "inicio": 7.117
+    },
+    {
+     "texto": "de",
+     "inicio": 7.334
+    },
+    {
+     "texto": "vendas,",
+     "inicio": 7.534
+    }
+   ],
+   "fim": 7.73
+  },
+  {
+   "palavras": [
+    {
+     "texto": "que",
+     "inicio": 7.734
+    },
+    {
+     "texto": "eu",
+     "inicio": 7.784
+    },
+    {
+     "texto": "chamo",
+     "inicio": 7.9
+    },
+    {
+     "texto": "de",
+     "inicio": 8.017
+    },
+    {
+     "texto": "lucro",
+     "inicio": 8.234
+    },
+    {
+     "texto": "meteórico",
+     "inicio": 8.5
+    }
+   ],
+   "fim": 8.87
+  },
+  {
+   "palavras": [
+    {
+     "texto": "ou",
+     "inicio": 8.872
+    },
+    {
+     "texto": "seja,",
+     "inicio": 9.039
+    },
+    {
+     "texto": "resultado,",
+     "inicio": 9.539
+    },
+    {
+     "texto": "sete",
+     "inicio": 9.905
+    },
+    {
+     "texto": "dias,",
+     "inicio": 10.205
+    }
+   ],
+   "fim": 10.51
+  },
+  {
+   "palavras": [
+    {
+     "texto": "250",
+     "inicio": 10.505
+    },
+    {
+     "texto": "mil",
+     "inicio": 10.855
+    },
+    {
+     "texto": "reais",
+     "inicio": 11.089
+    }
+   ],
+   "fim": 11.48
+  },
+  {
+   "palavras": [
+    {
+     "texto": "hoje",
+     "inicio": 11.484
+    },
+    {
+     "texto": "a",
+     "inicio": 11.551
+    },
+    {
+     "texto": "loja",
+     "inicio": 11.634
+    },
+    {
+     "texto": "já",
+     "inicio": 11.784
+    },
+    {
+     "texto": "está",
+     "inicio": 11.834
+    },
+    {
+     "texto": "com",
+     "inicio": 11.934
+    },
+    {
+     "texto": "40",
+     "inicio": 12.251
+    },
+    {
+     "texto": "mil",
+     "inicio": 12.368
+    },
+    {
+     "texto": "seguidores,",
+     "inicio": 12.568
+    }
+   ],
+   "fim": 13.2
+  },
+  {
+   "palavras": [
+    {
+     "texto": "bombando",
+     "inicio": 13.201
+    },
+    {
+     "texto": "na",
+     "inicio": 13.534
+    },
+    {
+     "texto": "região",
+     "inicio": 13.818
+    }
+   ],
+   "fim": 14.14
+  },
+  {
+   "palavras": [
+    {
+     "texto": "digita",
+     "inicio": 14.142
+    },
+    {
+     "texto": "black",
+     "inicio": 14.575
+    },
+    {
+     "texto": "que",
+     "inicio": 14.858
+    },
+    {
+     "texto": "eu",
+     "inicio": 14.942
+    },
+    {
+     "texto": "te",
+     "inicio": 15.008
+    },
+    {
+     "texto": "envio",
+     "inicio": 15.158
+    }
+   ],
+   "fim": 15.433
+  }
+ ],
+ "legendaTopo": 1335,
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

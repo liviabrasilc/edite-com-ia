@@ -1,0 +1,76 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "duracao": 4.667,
+   "apresentadoraInicio": 0
+  },
+  {
+   "duracao": 1.383,
+   "apresentadoraInicio": 4.667
+  },
+  {
+   "duracao": 2.708,
+   "apresentadoraInicio": 6.05
+  },
+  {
+   "duracao": 2.559,
+   "apresentadoraInicio": 8.758
+  },
+  {
+   "duracao": 2.791,
+   "apresentadoraInicio": 11.317
+  },
+  {
+   "duracao": 1.325,
+   "apresentadoraInicio": 14.108
+  }
+ ],
+ "titulo": "Classificando produtos\nde 1 a 10",
+ "quantidade": 10,
+ "itens": [
+  {
+   "imagem": "exemplo-produtos/produto-a.png",
+   "proporcao": 1.154,
+   "posicao": 10,
+   "entra": 1.0,
+   "voa": 3.0,
+   "maoX": 640,
+   "maoY": 1130
+  },
+  {
+   "imagem": "exemplo-produtos/produto-b.png",
+   "proporcao": 2.733,
+   "posicao": 9,
+   "entra": 4.8,
+   "voa": 6.6,
+   "maoX": 640,
+   "maoY": 1130
+  },
+  {
+   "imagem": "exemplo-produtos/produto-c.png",
+   "proporcao": 0.457,
+   "posicao": 8,
+   "entra": 8.9,
+   "voa": 10.6,
+   "maoX": 640,
+   "maoY": 1130
+  },
+  {
+   "imagem": "exemplo-produtos/produto-d.png",
+   "proporcao": 1.154,
+   "posicao": 7,
+   "entra": 11.4,
+   "voa": 13.3,
+   "maoX": 640,
+   "maoY": 1130
+  }
+ ],
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ },
+ "ctaTopo": 1200
+}

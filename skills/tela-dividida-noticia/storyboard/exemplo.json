@@ -1,0 +1,132 @@
+{
+ "titulo": "Storyboard: tela dividida notícia (teste)",
+ "resumo": [
+  "Duração final: 0:21.6",
+  "Parte 1: 0:00 a 0:12.8",
+  "Parte 2: 0:12.8 a 0:21.6",
+  "Começa em: “Foi assim que eu fiz um dentista…”",
+  "Termina em: “…que eu chamo de lucro meteórico.”"
+ ],
+ "partes": [
+  {
+   "nome": "Parte 1: notícia (tela dividida)",
+   "cenas": [
+    {
+     "imagem": "quadros/f54.jpg",
+     "tempo": "0:00.0 – 0:03.6",
+     "titulo": "Abertura da notícia",
+     "texto": "Foi assim que eu fiz um dentista fazer 1,6 milhões de reais em 4 dias.",
+     "nota": "Notícia em cima com som · card com a manchete · reação embaixo sem som"
+    },
+    {
+     "imagem": "quadros/f162.jpg",
+     "tempo": "0:03.6 – 0:07.2",
+     "titulo": "Notícia",
+     "texto": "Sem criar nada novo, sem usar tráfego pago e postando apenas uma vez por dia.",
+     "nota": "Notícia em cima com som · card com a manchete · reação embaixo sem som"
+    },
+    {
+     "imagem": "quadros/f259.jpg",
+     "tempo": "0:07.2 – 0:10.1",
+     "titulo": "Notícia",
+     "texto": "A gente tinha alguns desafios, o engajamento tava baixo, tinha pouco tempo pra organizar",
+     "nota": "Notícia em cima com som · card com a manchete · reação embaixo sem som"
+    },
+    {
+     "imagem": "quadros/f343.jpg",
+     "tempo": "0:10.1 – 0:12.8",
+     "titulo": "Fim da notícia",
+     "texto": "e era um produto com um ticket muito alto, 45 mil reais.",
+     "nota": "Notícia em cima com som · card com a manchete · reação embaixo sem som"
+    }
+   ]
+  },
+  {
+   "nome": "Parte 2: comentário em tela cheia",
+   "cenas": [
+    {
+     "imagem": "quadros/f393.jpg",
+     "tempo": "0:12.8 – 0:13.4",
+     "titulo": "Corte seco para o comentário",
+     "texto": "Legenda: “essa loja do interior”"
+    },
+    {
+     "imagem": "quadros/f416.jpg",
+     "tempo": "0:13.4 – 0:14.4",
+     "titulo": "Comentário",
+     "texto": "Legenda: “de Pernambuco vendeu”"
+    },
+    {
+     "imagem": "quadros/f450.jpg",
+     "tempo": "0:14.4 – 0:15.7",
+     "titulo": "Comentário",
+     "texto": "Legenda: “250 mil reais em 7 dias”"
+    },
+    {
+     "imagem": "quadros/f485.jpg",
+     "tempo": "0:15.7 – 0:16.7",
+     "titulo": "Comentário",
+     "texto": "Legenda: “depois de mudar um detalhe”"
+    },
+    {
+     "imagem": "quadros/f514.jpg",
+     "tempo": "0:16.7 – 0:17.6",
+     "titulo": "Comentário",
+     "texto": "Legenda: “nos seus posts de venda”",
+     "confira": true,
+     "nota": "A transcrição ouviu “postos”; coloquei “posts”."
+    },
+    {
+     "imagem": "quadros/f537.jpg",
+     "tempo": "0:17.6 – 0:18.2",
+     "titulo": "Comentário",
+     "texto": "Legenda: “o Instagram da loja”"
+    },
+    {
+     "imagem": "quadros/f559.jpg",
+     "tempo": "0:18.2 – 0:19.1",
+     "titulo": "Comentário",
+     "texto": "Legenda: “estava travado”"
+    },
+    {
+     "imagem": "quadros/f594.jpg",
+     "tempo": "0:19.1 – 0:20.5",
+     "titulo": "Comentário",
+     "texto": "Legenda: “até aplicar essa ação de vendas”"
+    },
+    {
+     "imagem": "quadros/f623.jpg",
+     "tempo": "0:20.5 – 0:21.0",
+     "titulo": "Comentário",
+     "texto": "Legenda: “que eu chamo de”"
+    },
+    {
+     "imagem": "quadros/f639.jpg",
+     "tempo": "0:21.0 – 0:21.6",
+     "titulo": "Comentário",
+     "texto": "Legenda: “lucro meteórico”"
+    }
+   ]
+  }
+ ],
+ "cortes": [
+  {
+   "tempo": "0:00.0 → 0:05.9 (loja 1)",
+   "texto": "Começo interrompido “Essa é a loja do interior de Pernambuco”; fica a versão completa."
+  },
+  {
+   "tempo": "0:11.5 → 0:13.5 (loja 1)",
+   "texto": "Respiro."
+  },
+  {
+   "tempo": "0:15.2 → 0:17.4 (loja 1)",
+   "texto": "Respiro."
+  }
+ ],
+ "observacoes": [
+  "Notícia: dentista.MOV de 0:00.3 a 0:13.1, sem cortes no meio.",
+  "Reação: loja 1.MOV de 0:23 a 0:36, sem som.",
+  "Comentário: loja 1.MOV tratado pelo /imparavel (1.2x sem mudar a voz, ruído limpo, volume do Instagram).",
+  "Enquadramento da notícia: o rosto ficou um pouco cortado em cima; dá para subir a imagem."
+ ]
+}

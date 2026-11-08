@@ -1,0 +1,106 @@
+{
+ "pessoa": {
+  "arquivo": "apresentadora-ec.mp4",
+  "recorte": "apresentadora-recorte.webm",
+  "inicio": 0,
+  "duracao": 15.433
+ },
+ "fundos": [
+  {
+   "inicio": 0,
+   "fim": 2.87,
+   "arquivo": "broll-bastidor.mp4",
+   "inicioArquivo": 0.5
+  },
+  {
+   "inicio": 4.803,
+   "fim": 8.872,
+   "arquivo": "noticia-teste.mp4",
+   "inicioArquivo": 0
+  },
+  {
+   "inicio": 11.484,
+   "fim": 13.201,
+   "arquivo": "insercao-ec.mp4",
+   "inicioArquivo": 0
+  }
+ ],
+ "legendas": [
+  {
+   "texto": "Essa loja do interior de Pernambuco vendeu 250 mil reais em 7 dias",
+   "inicio": 0.07,
+   "fim": 2.87,
+   "grande": true
+  },
+  {
+   "texto": "depois de mudar um detalhe",
+   "inicio": 2.87,
+   "fim": 3.92
+  },
+  {
+   "texto": "nos seus postos de venda",
+   "inicio": 3.92,
+   "fim": 4.803
+  },
+  {
+   "texto": "O Instagram da loja",
+   "inicio": 4.803,
+   "fim": 5.703
+  },
+  {
+   "texto": "estava travado",
+   "inicio": 5.703,
+   "fim": 6.267
+  },
+  {
+   "texto": "até aplicar essa ação de vendas,",
+   "inicio": 6.267,
+   "fim": 7.734
+  },
+  {
+   "texto": "que eu chamo de lucro meteórico",
+   "inicio": 7.734,
+   "fim": 8.872
+  },
+  {
+   "texto": "Ou seja, resultado,",
+   "inicio": 8.872,
+   "fim": 9.905
+  },
+  {
+   "texto": "sete dias,",
+   "inicio": 9.905,
+   "fim": 10.505
+  },
+  {
+   "texto": "250 mil reais",
+   "inicio": 10.505,
+   "fim": 11.484
+  },
+  {
+   "texto": "Hoje a loja já está",
+   "inicio": 11.484,
+   "fim": 12.251
+  },
+  {
+   "texto": "com 40 mil seguidores,",
+   "inicio": 12.251,
+   "fim": 13.201
+  },
+  {
+   "texto": "bombando na região",
+   "inicio": 13.201,
+   "fim": 14.142
+  },
+  {
+   "texto": "digita black que eu te envio",
+   "inicio": 14.142,
+   "fim": 15.433
+  }
+ ],
+ "legendaTopo": 1330,
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

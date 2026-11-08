@@ -1,0 +1,7 @@
+{
+  "name": "edite-com-ia",
+  "version": "0.21.0",
+  "description": "Formatos de edição de vídeo da Lívia Brasil. Cada formato é um comando: mande o vídeo, receba o storyboard, ajuste e aprove antes do vídeo final.",
+  "author": { "name": "Lívia Brasil" },
+  "keywords": ["video", "edicao", "reels", "ffmpeg", "remotion"]
+}

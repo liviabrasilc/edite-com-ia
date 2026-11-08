@@ -1,0 +1,116 @@
+{
+ "takes": [
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 0,
+   "duracao": 1.086
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 1.086,
+   "duracao": 1.784
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 2.87,
+   "duracao": 1.933
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 4.803,
+   "duracao": 1.464
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 6.267,
+   "duracao": 2.605
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 8.872,
+   "duracao": 2.612
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 11.484,
+   "duracao": 2.658
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "inicio": 14.142,
+   "duracao": 1.291
+  }
+ ],
+ "titulo": {
+  "texto": "VENDEU 250 MIL EM 7 DIAS",
+  "fim": 4.803
+ },
+ "legendas": [
+  {
+   "texto": "essa loja do interior\nde Pernambuco",
+   "inicio": 0.07,
+   "fim": 1.086
+  },
+  {
+   "texto": "vendeu 250 mil reais\nem 7 dias",
+   "inicio": 1.086,
+   "fim": 2.87
+  },
+  {
+   "texto": "depois de mudar um detalhe\nnos seus postos de venda",
+   "inicio": 2.87,
+   "fim": 4.803
+  },
+  {
+   "texto": "o Instagram da loja\nestava travado",
+   "inicio": 4.803,
+   "fim": 6.267
+  },
+  {
+   "texto": "até aplicar essa ação de vendas",
+   "inicio": 6.267,
+   "fim": 7.734
+  },
+  {
+   "texto": "que eu chamo de\nlucro meteórico",
+   "inicio": 7.734,
+   "fim": 8.872
+  },
+  {
+   "texto": "ou seja, resultado",
+   "inicio": 8.872,
+   "fim": 9.905
+  },
+  {
+   "texto": "sete dias, 250 mil reais",
+   "inicio": 9.905,
+   "fim": 11.484
+  },
+  {
+   "texto": "hoje a loja já está\ncom 40 mil seguidores",
+   "inicio": 11.484,
+   "fim": 13.201
+  },
+  {
+   "texto": "bombando na região",
+   "inicio": 13.201,
+   "fim": 14.142
+  },
+  {
+   "texto": "digita black\nque eu te envio",
+   "inicio": 14.142,
+   "fim": 15.433
+  }
+ ],
+ "legendaTopo": 1220,
+ "salvarSeguir": {
+  "inicio": 4.9,
+  "fim": 8.3,
+  "seguir": "Seguir",
+  "seguindo": "Seguindo"
+ },
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

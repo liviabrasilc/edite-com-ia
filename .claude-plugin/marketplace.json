@@ -1,0 +1,11 @@
+{
+  "name": "edite-com-ia",
+  "owner": { "name": "Lívia Brasil" },
+  "plugins": [
+    {
+      "name": "edite-com-ia",
+      "source": "./",
+      "description": "Formatos de edição de vídeo da Lívia Brasil, um comando por formato."
+    }
+  ]
+}

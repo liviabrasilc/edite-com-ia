@@ -1,0 +1,125 @@
+{
+ "narracao": {
+  "arquivo": "apresentadora-ec.mp4",
+  "inicio": 0
+ },
+ "takes": [
+  {
+   "arquivo": "seg2/s0.mov",
+   "duracao": 1.7,
+   "inicio": 0
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "duracao": 1.6,
+   "inicio": 1
+  },
+  {
+   "arquivo": "seg2/s2.mov",
+   "duracao": 1.5,
+   "inicio": 0.3
+  },
+  {
+   "arquivo": "apresentadora-ec.mp4",
+   "duracao": 1.6,
+   "inicio": 9
+  },
+  {
+   "arquivo": "seg2/s3.mov",
+   "duracao": 1.4,
+   "inicio": 0.5
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "duracao": 1.6,
+   "inicio": 6
+  },
+  {
+   "arquivo": "seg2/s4.mov",
+   "duracao": 1.6,
+   "inicio": 0.5
+  },
+  {
+   "arquivo": "seg2/s1.mov",
+   "duracao": 1.6,
+   "inicio": 0
+  },
+  {
+   "arquivo": "reacao-teste.mp4",
+   "duracao": 1.4,
+   "inicio": 10
+  },
+  {
+   "arquivo": "seg2/s0.mov",
+   "duracao": 1.433,
+   "inicio": 3.5
+  }
+ ],
+ "legendas": [
+  {
+   "texto": "essa loja do interior de pernambuco 🛍️",
+   "inicio": 0.07,
+   "fim": 1.09
+  },
+  {
+   "texto": "vendeu 250 mil reais em 7 dias",
+   "inicio": 1.09,
+   "fim": 2.87
+  },
+  {
+   "texto": "depois de mudar um detalhe",
+   "inicio": 2.87,
+   "fim": 3.92
+  },
+  {
+   "texto": "nos seus postos de venda",
+   "inicio": 3.92,
+   "fim": 4.8
+  },
+  {
+   "texto": "o instagram da loja estava travado",
+   "inicio": 4.8,
+   "fim": 6.27
+  },
+  {
+   "texto": "até aplicar essa ação de vendas",
+   "inicio": 6.27,
+   "fim": 7.73
+  },
+  {
+   "texto": "que eu chamo de lucro meteórico",
+   "inicio": 7.73,
+   "fim": 8.87
+  },
+  {
+   "texto": "ou seja",
+   "inicio": 8.87,
+   "fim": 9.54
+  },
+  {
+   "texto": "resultado, sete dias, 250 mil reais",
+   "inicio": 9.54,
+   "fim": 11.48
+  },
+  {
+   "texto": "hoje a loja já está com 40 mil seguidores",
+   "inicio": 11.48,
+   "fim": 13.2
+  },
+  {
+   "texto": "bombando na região",
+   "inicio": 13.2,
+   "fim": 14.14
+  },
+  {
+   "texto": "digita black que eu te envio",
+   "inicio": 14.14,
+   "fim": 15.433
+  }
+ ],
+ "legendaCentro": 1278,
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

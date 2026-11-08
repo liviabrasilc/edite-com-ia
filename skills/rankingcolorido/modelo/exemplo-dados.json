@@ -1,0 +1,553 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "duracao": 4.667,
+   "apresentadoraInicio": 0
+  },
+  {
+   "duracao": 1.383,
+   "apresentadoraInicio": 4.667
+  },
+  {
+   "duracao": 2.708,
+   "apresentadoraInicio": 6.05
+  },
+  {
+   "duracao": 2.559,
+   "apresentadoraInicio": 8.758
+  },
+  {
+   "duracao": 2.791,
+   "apresentadoraInicio": 11.317
+  },
+  {
+   "duracao": 1.325,
+   "apresentadoraInicio": 14.108
+  }
+ ],
+ "titulo": [
+  "Classificando produtos",
+  "da *Black Friday*"
+ ],
+ "quantidade": 10,
+ "palavras": [
+  {
+   "texto": "Essa",
+   "inicio": 0.07
+  },
+  {
+   "texto": "loja",
+   "inicio": 0.203
+  },
+  {
+   "texto": "do",
+   "inicio": 0.353
+  },
+  {
+   "texto": "interior",
+   "inicio": 0.503
+  },
+  {
+   "texto": "de",
+   "inicio": 0.62
+  },
+  {
+   "texto": "Pernambuco",
+   "inicio": 0.686
+  },
+  {
+   "texto": "vendeu",
+   "inicio": 1.086
+  },
+  {
+   "texto": "250",
+   "inicio": 1.57
+  },
+  {
+   "texto": "mil",
+   "inicio": 1.903
+  },
+  {
+   "texto": "reais",
+   "inicio": 2.07
+  },
+  {
+   "texto": "em",
+   "inicio": 2.22
+  },
+  {
+   "texto": "7",
+   "inicio": 2.453
+  },
+  {
+   "texto": "dias",
+   "inicio": 2.686
+  },
+  {
+   "texto": "depois",
+   "inicio": 2.87
+  },
+  {
+   "texto": "de",
+   "inicio": 2.97
+  },
+  {
+   "texto": "mudar",
+   "inicio": 3.153
+  },
+  {
+   "texto": "um",
+   "inicio": 3.436
+  },
+  {
+   "texto": "detalhe",
+   "inicio": 3.686
+  },
+  {
+   "texto": "nos",
+   "inicio": 3.92
+  },
+  {
+   "texto": "seus",
+   "inicio": 4.036
+  },
+  {
+   "texto": "postos",
+   "inicio": 4.236
+  },
+  {
+   "texto": "de",
+   "inicio": 4.386
+  },
+  {
+   "texto": "venda",
+   "inicio": 4.47
+  },
+  {
+   "texto": "O",
+   "inicio": 4.803
+  },
+  {
+   "texto": "Instagram",
+   "inicio": 4.97
+  },
+  {
+   "texto": "da",
+   "inicio": 5.12
+  },
+  {
+   "texto": "loja",
+   "inicio": 5.186
+  },
+  {
+   "texto": "estava",
+   "inicio": 5.403
+  },
+  {
+   "texto": "travado",
+   "inicio": 5.703
+  },
+  {
+   "texto": "até",
+   "inicio": 6.267
+  },
+  {
+   "texto": "aplicar",
+   "inicio": 6.484
+  },
+  {
+   "texto": "essa",
+   "inicio": 6.95
+  },
+  {
+   "texto": "ação",
+   "inicio": 7.117
+  },
+  {
+   "texto": "de",
+   "inicio": 7.334
+  },
+  {
+   "texto": "vendas,",
+   "inicio": 7.534
+  },
+  {
+   "texto": "que",
+   "inicio": 7.734
+  },
+  {
+   "texto": "eu",
+   "inicio": 7.784
+  },
+  {
+   "texto": "chamo",
+   "inicio": 7.9
+  },
+  {
+   "texto": "de",
+   "inicio": 8.017
+  },
+  {
+   "texto": "lucro",
+   "inicio": 8.234
+  },
+  {
+   "texto": "meteórico",
+   "inicio": 8.5
+  },
+  {
+   "texto": "Ou",
+   "inicio": 8.872
+  },
+  {
+   "texto": "seja,",
+   "inicio": 9.039
+  },
+  {
+   "texto": "resultado,",
+   "inicio": 9.539
+  },
+  {
+   "texto": "sete",
+   "inicio": 9.905
+  },
+  {
+   "texto": "dias,",
+   "inicio": 10.205
+  },
+  {
+   "texto": "250",
+   "inicio": 10.505
+  },
+  {
+   "texto": "mil",
+   "inicio": 10.855
+  },
+  {
+   "texto": "reais",
+   "inicio": 11.089
+  },
+  {
+   "texto": "Hoje",
+   "inicio": 11.484
+  },
+  {
+   "texto": "a",
+   "inicio": 11.551
+  },
+  {
+   "texto": "loja",
+   "inicio": 11.634
+  },
+  {
+   "texto": "já",
+   "inicio": 11.784
+  },
+  {
+   "texto": "está",
+   "inicio": 11.834
+  },
+  {
+   "texto": "com",
+   "inicio": 11.934
+  },
+  {
+   "texto": "40",
+   "inicio": 12.251
+  },
+  {
+   "texto": "mil",
+   "inicio": 12.368
+  },
+  {
+   "texto": "seguidores,",
+   "inicio": 12.568
+  },
+  {
+   "texto": "bombando",
+   "inicio": 13.201
+  },
+  {
+   "texto": "na",
+   "inicio": 13.534
+  },
+  {
+   "texto": "região",
+   "inicio": 13.818
+  },
+  {
+   "texto": "digita",
+   "inicio": 14.142
+  },
+  {
+   "texto": "black",
+   "inicio": 14.575
+  },
+  {
+   "texto": "que",
+   "inicio": 14.858
+  },
+  {
+   "texto": "eu",
+   "inicio": 14.942
+  },
+  {
+   "texto": "te",
+   "inicio": 15.008
+  },
+  {
+   "texto": "envio",
+   "inicio": 15.158
+  }
+ ],
+ "frases": [
+  {
+   "linhas": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ]
+   ],
+   "inicio": 0.07,
+   "fim": 1.086
+  },
+  {
+   "linhas": [
+    [
+     6,
+     7,
+     8
+    ],
+    [
+     9,
+     10,
+     11
+    ]
+   ],
+   "inicio": 1.086,
+   "fim": 2.686
+  },
+  {
+   "linhas": [
+    [
+     12,
+     13,
+     14
+    ],
+    [
+     15,
+     16,
+     17
+    ]
+   ],
+   "inicio": 2.686,
+   "fim": 3.92
+  },
+  {
+   "linhas": [
+    [
+     18,
+     19,
+     20
+    ],
+    [
+     21,
+     22
+    ]
+   ],
+   "inicio": 3.92,
+   "fim": 4.803
+  },
+  {
+   "linhas": [
+    [
+     23,
+     24,
+     25
+    ],
+    [
+     26,
+     27,
+     28
+    ]
+   ],
+   "inicio": 4.803,
+   "fim": 6.267
+  },
+  {
+   "linhas": [
+    [
+     29,
+     30,
+     31
+    ],
+    [
+     32,
+     33,
+     34
+    ]
+   ],
+   "inicio": 6.267,
+   "fim": 7.734
+  },
+  {
+   "linhas": [
+    [
+     35,
+     36,
+     37
+    ],
+    [
+     38,
+     39,
+     40
+    ]
+   ],
+   "inicio": 7.734,
+   "fim": 8.872
+  },
+  {
+   "linhas": [
+    [
+     41,
+     42
+    ]
+   ],
+   "inicio": 8.872,
+   "fim": 9.539
+  },
+  {
+   "linhas": [
+    [
+     43
+    ]
+   ],
+   "inicio": 9.539,
+   "fim": 9.905
+  },
+  {
+   "linhas": [
+    [
+     44,
+     45
+    ]
+   ],
+   "inicio": 9.905,
+   "fim": 10.505
+  },
+  {
+   "linhas": [
+    [
+     46,
+     47,
+     48
+    ]
+   ],
+   "inicio": 10.505,
+   "fim": 11.484
+  },
+  {
+   "linhas": [
+    [
+     49,
+     50,
+     51
+    ],
+    [
+     52,
+     53,
+     54
+    ]
+   ],
+   "inicio": 11.484,
+   "fim": 12.251
+  },
+  {
+   "linhas": [
+    [
+     55,
+     56,
+     57
+    ]
+   ],
+   "inicio": 12.251,
+   "fim": 13.201
+  },
+  {
+   "linhas": [
+    [
+     58,
+     59,
+     60
+    ]
+   ],
+   "inicio": 13.201,
+   "fim": 14.142
+  },
+  {
+   "linhas": [
+    [
+     61,
+     62,
+     63
+    ],
+    [
+     64,
+     65,
+     66
+    ]
+   ],
+   "inicio": 14.142,
+   "fim": 15.433
+  }
+ ],
+ "legendaTopo": 1215,
+ "produtoTopo": 1310,
+ "itens": [
+  {
+   "imagem": "exemplo-produtos/produto-a.png",
+   "proporcao": 1.154,
+   "posicao": 10,
+   "entra": 1.0,
+   "voa": 3.0,
+   "nome": "Creme hidratante"
+  },
+  {
+   "imagem": "exemplo-produtos/produto-b.png",
+   "proporcao": 2.733,
+   "posicao": 9,
+   "entra": 4.8,
+   "voa": 6.6,
+   "nome": "Gel de limpeza"
+  },
+  {
+   "imagem": "exemplo-produtos/produto-c.png",
+   "proporcao": 0.457,
+   "posicao": 8,
+   "entra": 8.9,
+   "voa": 10.6,
+   "nome": "Sérum facial"
+  },
+  {
+   "imagem": "exemplo-produtos/produto-d.png",
+   "proporcao": 1.154,
+   "posicao": 7,
+   "entra": 11.4,
+   "voa": 13.3,
+   "nome": "Creme noturno"
+  }
+ ],
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}

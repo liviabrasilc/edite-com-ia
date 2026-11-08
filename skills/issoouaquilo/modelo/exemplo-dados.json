@@ -1,0 +1,171 @@
+{
+ "apresentadora": {
+  "arquivo": "apresentadora-ec.mp4"
+ },
+ "cenas": [
+  {
+   "duracao": 15.433,
+   "apresentadoraInicio": 0
+  }
+ ],
+ "pares": [
+  {
+   "problema": "ioa/problema-0.jpg",
+   "produto": "lista/produto-a.png",
+   "proporcao": 1.154,
+   "nome": "Creme hidratante",
+   "problemaEntra": 0.2,
+   "produtoEntra": 1.09,
+   "sai": 2.87
+  },
+  {
+   "problema": "ioa/problema-1.jpg",
+   "produto": "lista/produto-b.png",
+   "proporcao": 2.733,
+   "nome": "Gel de limpeza",
+   "problemaEntra": 4.8,
+   "produtoEntra": 6.27,
+   "sai": 8.87
+  },
+  {
+   "problema": "ioa/problema-2.jpg",
+   "produto": "lista/produto-c.png",
+   "proporcao": 0.457,
+   "nome": "Sérum facial",
+   "problemaEntra": 8.87,
+   "produtoEntra": 9.9,
+   "sai": 11.48
+  },
+  {
+   "problema": "ioa/problema-3.jpg",
+   "produto": "lista/produto-d.png",
+   "proporcao": 1.154,
+   "nome": "Creme noturno",
+   "problemaEntra": 11.48,
+   "produtoEntra": 12.57,
+   "sai": 14.14
+  }
+ ],
+ "legendas": [
+  {
+   "texto": "Essa loja do interior",
+   "inicio": 0.07,
+   "fim": 0.69
+  },
+  {
+   "texto": "de Pernambuco",
+   "inicio": 0.69,
+   "fim": 1.09
+  },
+  {
+   "texto": "vendeu 250 mil reais",
+   "inicio": 1.09,
+   "fim": 2.22
+  },
+  {
+   "texto": "em 7 dias",
+   "inicio": 2.22,
+   "fim": 2.87
+  },
+  {
+   "texto": "depois de mudar",
+   "inicio": 2.87,
+   "fim": 3.44
+  },
+  {
+   "texto": "um detalhe",
+   "inicio": 3.44,
+   "fim": 3.92
+  },
+  {
+   "texto": "nos seus postos de venda",
+   "inicio": 3.92,
+   "fim": 4.803
+  },
+  {
+   "texto": "O Instagram da loja",
+   "inicio": 4.803,
+   "fim": 5.403
+  },
+  {
+   "texto": "estava travado",
+   "inicio": 5.403,
+   "fim": 6.267
+  },
+  {
+   "texto": "Até aplicar essa ação",
+   "inicio": 6.267,
+   "fim": 7.334
+  },
+  {
+   "texto": "de vendas,",
+   "inicio": 7.334,
+   "fim": 7.734
+  },
+  {
+   "texto": "que eu chamo de",
+   "inicio": 7.734,
+   "fim": 8.234
+  },
+  {
+   "texto": "lucro meteórico",
+   "inicio": 8.234,
+   "fim": 8.872
+  },
+  {
+   "texto": "Ou seja,",
+   "inicio": 8.872,
+   "fim": 9.539
+  },
+  {
+   "texto": "resultado,",
+   "inicio": 9.539,
+   "fim": 9.905
+  },
+  {
+   "texto": "sete dias,",
+   "inicio": 9.905,
+   "fim": 10.505
+  },
+  {
+   "texto": "250 mil reais",
+   "inicio": 10.505,
+   "fim": 11.484
+  },
+  {
+   "texto": "Hoje a loja já",
+   "inicio": 11.484,
+   "fim": 11.834
+  },
+  {
+   "texto": "está com 40 mil",
+   "inicio": 11.834,
+   "fim": 12.568
+  },
+  {
+   "texto": "seguidores,",
+   "inicio": 12.568,
+   "fim": 13.201
+  },
+  {
+   "texto": "bombando na região",
+   "inicio": 13.201,
+   "fim": 14.142
+  },
+  {
+   "texto": "Digita black que eu",
+   "inicio": 14.142,
+   "fim": 15.008
+  },
+  {
+   "texto": "te envio",
+   "inicio": 15.008,
+   "fim": 15.433
+  }
+ ],
+ "legendaTopo": 1220,
+ "cta": {
+  "texto": "Comenta: BLACK",
+  "inicio": 14.142
+ }
+}
