@@ -55,7 +55,8 @@ export const ganchoTresImagensSchema = z.object({
     fim: z.number(), // segundo em que o gancho some (início da 2ª frase)
   }),
   legendas: z.array(z.object({ texto: z.string(), inicio: z.number(), fim: z.number() })),
-  cta: z.object({ texto: z.string(), inicio: z.number() }).optional(),
+  cta: z.object({ texto: z.string(), inicio: z.number() }).optional(), // um CTA parado até o fim
+  ctas: z.array(z.object({ texto: z.string(), inicio: z.number(), fim: z.number().optional() })).optional(), // vários CTAs: cada um some no "fim" (o último, sem "fim", fica até o final)
   legendaTopo: z.number().optional(), // tela cheia: topo da legenda, ~1 cm abaixo do queixo mais baixo (já com zoom)
   legendaTopoDividida: z.number().optional(), // tela dividida: na emenda, padrão 980
   ganchoComLegenda: z.boolean().optional(), // true: a legenda continua rolando enquanto o gancho fica na tela (gancho longo)
@@ -132,7 +133,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
   const tipoAtual = p.cenas[idx]?.tipo ?? "pessoa";
   const noGancho = t < p.gancho.fim;
   const leg = noGancho && !p.ganchoComLegenda ? undefined : p.legendas.find((l) => t >= l.inicio && t < l.fim);
-  const ctaAtivo = p.cta && t >= p.cta.inicio;
+  const ctaAtivo = (p.ctas ?? (p.cta ? [p.cta] : [])).find((c: { inicio: number; fim?: number }) => t >= c.inicio && (c.fim === undefined || t < c.fim));
   const topo = tipoAtual === "dividida" ? p.legendaTopoDividida ?? 980 : p.legendaTopo ?? 1180;
   const esquerdaImgs = (1080 - (3 * IMG_LADO + 2 * IMG_ESPACO)) / 2;
 
@@ -198,8 +199,8 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
       {/* CTA: colado em cima da legenda, parado até o fim */}
       {ctaAtivo && (
         <div style={{ position: "absolute", left: 0, right: 0, bottom: 1920 - topo + CTA_ESPACO, display: "flex", justifyContent: "center" }}>
-          <div style={{ backgroundColor: p.estilo?.ctaFundo ?? "#7D1D2F", color: p.estilo?.ctaTexto ?? "white", fontFamily: montserrat.fontFamily, fontWeight: 700, fontSize: 52, padding: "10px 30px", borderRadius: 14 }}>
-            {p.cta!.texto}
+          <div style={{ backgroundColor: p.estilo?.ctaFundo ?? "#7D1D2F", color: p.estilo?.ctaTexto ?? "white", fontFamily: montserrat.fontFamily, fontWeight: 700, fontSize: 52, lineHeight: 1.1, padding: "10px 30px", borderRadius: 14, textAlign: "center", whiteSpace: "pre-wrap", maxWidth: 900 }}>
+            {ctaAtivo.texto}
           </div>
         </div>
       )}
