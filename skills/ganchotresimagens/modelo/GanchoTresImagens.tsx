@@ -15,7 +15,7 @@ import { AbsoluteFill, Audio, CalculateMetadataFunction, Img, OffthreadVideo, Se
 import { loadFont as loadMontserrat } from "@remotion/google-fonts/Montserrat";
 import { z } from "zod";
 
-const montserrat = loadMontserrat("normal", { weights: ["700"], subsets: ["latin", "latin-ext"] });
+const montserrat = loadMontserrat("normal", { weights: ["700", "800"], subsets: ["latin", "latin-ext"] });
 const midia = (s: string) => (/^(https?:|data:|blob:)/.test(s) ? s : staticFile(s));
 
 const FPS = 30;
@@ -42,6 +42,7 @@ const cenaSchema = z.object({
   zoom: z.number().optional(), // 1 e 1.15 alternando a cada corte
   tipo: z.enum(["pessoa", "dividida", "imagem"]).optional(), // padrão "pessoa"
   imagem: z.string().optional(), // foto ou vídeo de apoio; obrigatória em "dividida" e "imagem"
+  imagemPosicao: z.string().optional(), // enquadramento da foto/vídeo de apoio (object-position), ex. "50% 0%" mostra o topo, "15% 50%" a esquerda
   imagemInicio: z.number().optional(), // vídeo de apoio: segundo do clipe em que a cena começa (padrão 0); o som do clipe fica mudo
 });
 
@@ -57,6 +58,16 @@ export const ganchoTresImagensSchema = z.object({
   cta: z.object({ texto: z.string(), inicio: z.number() }).optional(),
   legendaTopo: z.number().optional(), // tela cheia: topo da legenda, ~1 cm abaixo do queixo mais baixo (já com zoom)
   legendaTopoDividida: z.number().optional(), // tela dividida: na emenda, padrão 980
+  ganchoComLegenda: z.boolean().optional(), // true: a legenda continua rolando enquanto o gancho fica na tela (gancho longo)
+  estilo: z
+    .object({
+      cor: z.string().optional(), // cor da legenda e do título, padrão #F2DD76
+      peso: z.number().optional(), // 700 (padrão) ou 800
+      contorno: z.number().optional(), // borda preta em px (0 = sem borda, padrão)
+      ctaFundo: z.string().optional(), // cor da caixa do CTA, padrão marsala #7D1D2F
+      ctaTexto: z.string().optional(), // cor do texto do CTA, padrão branco
+    })
+    .optional(),
   zoomOrigem: z.string().optional(), // ponto fixo do zoom 1.15, padrão "50% 30%"; use a altura do queixo (ex. "50% 68%") para o queixo não descer
 });
 
@@ -67,15 +78,17 @@ export const calcularDuracao: CalculateMetadataFunction<GanchoTresImagensProps> 
   durationInFrames: Math.round(props.cenas.reduce((s, c) => s + c.duracao, 0) * FPS),
 });
 
-const texto = (tamanho: number): React.CSSProperties => ({
+type Estilo = NonNullable<GanchoTresImagensProps["estilo"]>;
+const texto = (tamanho: number, e: Estilo = {}): React.CSSProperties => ({
   fontFamily: montserrat.fontFamily,
-  fontWeight: 700,
+  fontWeight: e.peso ?? 700,
   fontSize: tamanho,
   lineHeight: 1.08,
-  color: AMARELO,
+  color: e.cor ?? AMARELO,
   textAlign: "center",
   whiteSpace: "pre-wrap",
   textShadow: SOMBRA,
+  ...(e.contorno ? { WebkitTextStroke: `${e.contorno * 2}px black`, paintOrder: "stroke fill" } : {}),
 });
 
 const ehVideo = (s: string) => /\.(mov|mp4|m4v|webm)$/i.test(s);
@@ -118,7 +131,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
   const idx = Math.max(0, inicios.findIndex((s, i) => t >= s && t < s + p.cenas[i].duracao));
   const tipoAtual = p.cenas[idx]?.tipo ?? "pessoa";
   const noGancho = t < p.gancho.fim;
-  const leg = noGancho ? undefined : p.legendas.find((l) => t >= l.inicio && t < l.fim);
+  const leg = noGancho && !p.ganchoComLegenda ? undefined : p.legendas.find((l) => t >= l.inicio && t < l.fim);
   const ctaAtivo = p.cta && t >= p.cta.inicio;
   const topo = tipoAtual === "dividida" ? p.legendaTopoDividida ?? 980 : p.legendaTopo ?? 1180;
   const esquerdaImgs = (1080 - (3 * IMG_LADO + 2 * IMG_ESPACO)) / 2;
@@ -139,6 +152,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
                     src={c.imagem!}
                     inicio={c.imagemInicio ?? 0}
                     style={{
+                      objectPosition: c.imagemPosicao ?? "50% 50%",
                       position: "absolute",
                       left: 0,
                       top: 0,
@@ -151,7 +165,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
                   />
                 </>
               )}
-              {tipo === "imagem" && <Apoio src={c.imagem!} inicio={c.imagemInicio ?? 0} style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
+              {tipo === "imagem" && <Apoio src={c.imagem!} inicio={c.imagemInicio ?? 0} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: c.imagemPosicao ?? "50% 50%" }} />}
             </AbsoluteFill>
           </Sequence>
         );
@@ -176,7 +190,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
             />
           ))}
           <div style={{ position: "absolute", left: (1080 - LARGURA) / 2, width: LARGURA, top: TITULO_TOPO, display: "flex", justifyContent: "center" }}>
-            <div style={texto(TITULO_TAMANHO)}>{p.gancho.titulo}</div>
+            <div style={texto(TITULO_TAMANHO, p.estilo)}>{p.gancho.titulo}</div>
           </div>
         </>
       )}
@@ -184,7 +198,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
       {/* CTA: colado em cima da legenda, parado até o fim */}
       {ctaAtivo && (
         <div style={{ position: "absolute", left: 0, right: 0, bottom: 1920 - topo + CTA_ESPACO, display: "flex", justifyContent: "center" }}>
-          <div style={{ backgroundColor: "#7D1D2F", color: "white", fontFamily: montserrat.fontFamily, fontWeight: 700, fontSize: 52, padding: "10px 30px", borderRadius: 14 }}>
+          <div style={{ backgroundColor: p.estilo?.ctaFundo ?? "#7D1D2F", color: p.estilo?.ctaTexto ?? "white", fontFamily: montserrat.fontFamily, fontWeight: 700, fontSize: 52, padding: "10px 30px", borderRadius: 14 }}>
             {p.cta!.texto}
           </div>
         </div>
@@ -193,7 +207,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
       {/* Legenda por frase, amarela, parada, sem animação */}
       {leg && (
         <div style={{ position: "absolute", left: (1080 - LARGURA) / 2, width: LARGURA, top: topo, display: "flex", justifyContent: "center" }}>
-          <div style={texto(LEGENDA_TAMANHO)}>{leg.texto}</div>
+          <div style={texto(LEGENDA_TAMANHO, p.estilo)}>{leg.texto}</div>
         </div>
       )}
     </AbsoluteFill>
