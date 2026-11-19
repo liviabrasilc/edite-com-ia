@@ -45,6 +45,7 @@ Pronto: os formatos ficam salvos na sua conta e funcionam nas suas conversas do 
 | `/conversacomvoce` | Conversa com você: esquete com a pessoa nos dois papéis, corte seco, título POV fixo, legenda por frase, trilha e grave de tensão na abertura, CTA marsala. |
 | `/conversaelegante` | Conversa elegante: a pessoa nos dois papéis com corte seco, título em caixa escura com Bebas creme no começo, legenda condensada por frase, animação de salvar e seguir, CTA marsala. |
 | `/telaverde` | Tela verde: a pessoa recortada na frente do vídeo ou foto que está comentando, legenda branca em negrito por frase (a primeira maior), CTA marsala. |
+| `/ganchotresimagens` | Gancho com três imagens: três imagens pequenas em fila e o título amarelo parado embaixo delas no começo; depois cortes secos com zoom, legenda amarela por frase e imagens de apoio em tela dividida ou cheia. |
 | `/bastidor` | Bastidor: takes curtos com narração, gancho em palavras grandes, valor revelado por moeda dourada, legenda itálica palavra por palavra e final com música. |
 
 Mais formatos em breve.
