@@ -41,7 +41,8 @@ const cenaSchema = z.object({
   apresentadoraInicio: z.number().optional(), // segundo do vídeo tratado em que a cena começa
   zoom: z.number().optional(), // 1 e 1.15 alternando a cada corte
   tipo: z.enum(["pessoa", "dividida", "imagem"]).optional(), // padrão "pessoa"
-  imagem: z.string().optional(), // obrigatória em "dividida" e "imagem"
+  imagem: z.string().optional(), // foto ou vídeo de apoio; obrigatória em "dividida" e "imagem"
+  imagemInicio: z.number().optional(), // vídeo de apoio: segundo do clipe em que a cena começa (padrão 0); o som do clipe fica mudo
 });
 
 export const ganchoTresImagensSchema = z.object({
@@ -56,6 +57,7 @@ export const ganchoTresImagensSchema = z.object({
   cta: z.object({ texto: z.string(), inicio: z.number() }).optional(),
   legendaTopo: z.number().optional(), // tela cheia: topo da legenda, ~1 cm abaixo do queixo mais baixo (já com zoom)
   legendaTopoDividida: z.number().optional(), // tela dividida: na emenda, padrão 980
+  zoomOrigem: z.string().optional(), // ponto fixo do zoom 1.15, padrão "50% 30%"; use a altura do queixo (ex. "50% 68%") para o queixo não descer
 });
 
 export type GanchoTresImagensProps = z.infer<typeof ganchoTresImagensSchema>;
@@ -76,7 +78,17 @@ const texto = (tamanho: number): React.CSSProperties => ({
   textShadow: SOMBRA,
 });
 
-const Pessoa: React.FC<{ arquivo: string; inicio: number; zoom: number; topo?: number }> = ({ arquivo, inicio, zoom, topo = 0 }) => (
+const ehVideo = (s: string) => /\.(mov|mp4|m4v|webm)$/i.test(s);
+
+// Foto ou vídeo de apoio (vídeo sempre mudo, como na referência)
+const Apoio: React.FC<{ src: string; inicio: number; style: React.CSSProperties }> = ({ src, inicio, style }) =>
+  ehVideo(src) ? (
+    <OffthreadVideo src={midia(src)} startFrom={Math.round(inicio * FPS)} muted style={style} />
+  ) : (
+    <Img src={midia(src)} style={style} />
+  );
+
+const Pessoa: React.FC<{ arquivo: string; inicio: number; zoom: number; topo?: number; origem?: string }> = ({ arquivo, inicio, zoom, topo = 0, origem }) => (
   <div style={{ position: "absolute", left: 0, right: 0, top: topo, bottom: 0, overflow: "hidden" }}>
     <OffthreadVideo
       src={midia(arquivo)}
@@ -86,9 +98,9 @@ const Pessoa: React.FC<{ arquivo: string; inicio: number; zoom: number; topo?: n
         width: "100%",
         height: "100%",
         objectFit: "cover",
-        objectPosition: topo ? "50% 22%" : "50% 50%",
+        objectPosition: topo ? "50% 60%" : "50% 50%",
         transform: `scale(${zoom})`,
-        transformOrigin: "50% 30%",
+        transformOrigin: origem ?? "50% 30%",
       }}
     />
   </div>
@@ -119,12 +131,13 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
         return (
           <Sequence key={i} from={Math.round(inicios[i] * FPS)} durationInFrames={Math.round(c.duracao * FPS)}>
             <AbsoluteFill style={{ overflow: "hidden" }}>
-              {tipo === "pessoa" && <Pessoa arquivo={p.apresentadora.arquivo} inicio={inicio} zoom={c.zoom ?? 1} />}
+              {tipo === "pessoa" && <Pessoa arquivo={p.apresentadora.arquivo} inicio={inicio} zoom={c.zoom ?? 1} origem={p.zoomOrigem} />}
               {tipo === "dividida" && (
                 <>
                   <Pessoa arquivo={p.apresentadora.arquivo} inicio={inicio} zoom={c.zoom ?? 1} topo={DIV_PESSOA_TOPO} />
-                  <Img
-                    src={midia(c.imagem!)}
+                  <Apoio
+                    src={c.imagem!}
+                    inicio={c.imagemInicio ?? 0}
                     style={{
                       position: "absolute",
                       left: 0,
@@ -138,7 +151,7 @@ export const GanchoTresImagens: React.FC<GanchoTresImagensProps> = (p) => {
                   />
                 </>
               )}
-              {tipo === "imagem" && <Img src={midia(c.imagem!)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
+              {tipo === "imagem" && <Apoio src={c.imagem!} inicio={c.imagemInicio ?? 0} style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
             </AbsoluteFill>
           </Sequence>
         );

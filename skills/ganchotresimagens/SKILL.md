@@ -25,7 +25,7 @@ Tudo fica **parado** (não acompanha a cabeça) até a pessoa terminar a primeir
 **Depois do gancho (estilo do reel de referência):**
 - **Cortes secos** com **zoom alternando 1.0 e 1.15** a cada corte (jump cut). **Sem música e sem efeitos sonoros.**
 - **Legenda por frase**, em blocos de 2 ou 3 linhas curtas (ex.: "e quase metade das / parábolas envolve / finanças"), Montserrat Bold amarela 58 px, minúscula como a fala (maiúscula só em nomes), centralizada, **sem animação** e sem palavra destacada. Em tela cheia fica **parada sempre no mesmo lugar, ~1 cm abaixo do queixo** (`legendaTopo`).
-- **Imagens de apoio** (só se a pessoa mandar): **tela dividida** (imagem em cima de 0 a 960 px, com degradê suave no pé, pessoa embaixo a partir de 860 px, legenda na emenda em `legendaTopoDividida` = 980) ou **imagem em tela cheia** com a legenda por cima. Entram e saem por corte seco, alternando com a pessoa em tela cheia a cada 2 a 3 s, na hora em que a fala combina com a imagem. Se a pessoa não mandar imagens de apoio, o vídeo é só ela em tela cheia com cortes, zoom e legenda.
+- **Imagens ou vídeos de apoio** (só se a pessoa mandar; o som dos vídeos fica mudo): **tela dividida** (imagem em cima de 0 a 960 px, com degradê suave no pé, pessoa embaixo a partir de 860 px, legenda na emenda em `legendaTopoDividida` = 980) ou **imagem em tela cheia** com a legenda por cima. Entram e saem por corte seco, alternando com a pessoa em tela cheia a cada 2 a 3 s, na hora em que a fala combina com a imagem. Se a pessoa não mandar imagens de apoio, o vídeo é só ela em tela cheia com cortes, zoom e legenda.
 
 **CTA:** se a pessoa falar um CTA, caixa marsala `#7D1D2F` com texto branco em negrito, cantos arredondados, `Comenta: PALAVRA`, **colada em cima da legenda** (logo abaixo do queixo). Aparece quando ela começa a falar o CTA e fica parada até o fim; a legenda continua embaixo dela.
 
@@ -71,7 +71,7 @@ Faça no vídeo toda a edição básica do `/imparavel` (cortes de erros, respir
 3. **Legendas:** depois do gancho, uma frase curta por vez (até ~8 palavras), em 2 ou 3 linhas parecidas, cortando em vírgula e fim de frase; cada uma vai do início da primeira palavra até o início da próxima. Mantenha só vírgula e exclamação. Números em algarismos.
 4. **CTA:** se houver, `cta.inicio` = início da primeira palavra do CTA.
 5. Copie `modelo/GanchoTresImagens.tsx` para `src/` e registre como em `modelo/Root-exemplo.tsx`. Instale `@remotion/google-fonts` e `zod` na versão que o Remotion pedir. Preencha os dados como em `modelo/exemplo-dados.json` (todos os campos).
-6. **Meça o queixo** em vários momentos (sem zoom), calcule a posição com zoom 1.15 (`576 + (queixo - 576) * 1.15`) e use em `legendaTopo` esse queixo mais baixo + ~100 px (1 cm abaixo). Confira que o título do gancho e as três imagens não cobrem o rosto; se cobrirem, avise no storyboard antes de mudar qualquer medida.
+6. **Meça o queixo** em vários momentos (sem zoom), calcule a posição com zoom 1.15 (`576 + (queixo - 576) * 1.15`) e use em `legendaTopo` esse queixo mais baixo + ~100 px (1 cm abaixo). Se o queixo descer muito com o zoom, use `zoomOrigem` na altura do queixo (ex.: "50% 68%"). Confira que o título do gancho e as três imagens não cobrem o rosto; se cobrirem, avise no storyboard antes de mudar qualquer medida.
 
 ## Passo 4: storyboard visual
 
