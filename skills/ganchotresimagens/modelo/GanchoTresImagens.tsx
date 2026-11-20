@@ -20,7 +20,7 @@ const midia = (s: string) => (/^(https?:|data:|blob:)/.test(s) ? s : staticFile(
 
 const FPS = 30;
 const AMARELO = "#F2DD76"; // cor medida na legenda da referência
-const SOMBRA = "0 2px 8px rgba(0,0,0,0.7), 0 0 3px rgba(0,0,0,0.6)";
+const SOMBRA = "0 4px 14px rgba(0,0,0,0.85), 0 0 8px rgba(0,0,0,0.6)";
 const LEGENDA_TAMANHO = 58;
 const TITULO_TAMANHO = 70;
 const LARGURA = 900; // dentro das bordas do Reels

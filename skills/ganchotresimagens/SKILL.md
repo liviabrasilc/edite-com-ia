@@ -79,8 +79,8 @@ Gere o storyboard como em "Como fazer o storyboard": uma imagem do gancho (três
 
 ## Passo 5: prévia de 8 segundos
 
-Renderize os 8 primeiros segundos, sem emenda (mostra o gancho e as primeiras legendas): `npx remotion render <entrada> GanchoTresImagens previa-8s.mp4 --frames=0-239 --codec=h264 --crf=18`. Abra automaticamente e pergunte se pode fazer o vídeo final.
+Renderize os 8 primeiros segundos, sem emenda (mostra o gancho e as primeiras legendas): `npx remotion render <entrada> GanchoTresImagens previa-8s.mp4 --frames=0-239 --codec=h264 --crf=10 --x264-preset=slow` (qualidade alta: com crf maior o título parado "treme" por causa da compressão). Abra automaticamente e pergunte se pode fazer o vídeo final.
 
 ## Passo 6: vídeo final (só com aprovação)
 
-Renderize o vídeo inteiro em H.264, salve como `<nome>-gancho-tres-imagens.mp4` na pasta de entregas, confira 3 quadros (gancho, uma imagem de apoio e o CTA), abra automaticamente e diga onde está o arquivo e a duração.
+Renderize o vídeo inteiro em H.264 com `--crf=10 --x264-preset=slow`, salve como `<nome>-gancho-tres-imagens.mp4` na pasta de entregas, confira 3 quadros (gancho, uma imagem de apoio e o CTA), abra automaticamente e diga onde está o arquivo e a duração.
