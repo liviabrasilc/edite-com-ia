@@ -1,0 +1,26 @@
+{
+ "apresentadora": { "arquivo": "apresentadora.mp4" },
+ "cenas": [
+  { "duracao": 3.2, "apresentadoraInicio": 0, "zoom": 1, "tipo": "pessoa" },
+  { "duracao": 2.6, "apresentadoraInicio": 3.2, "zoom": 1.15, "tipo": "pessoa" },
+  { "duracao": 2.8, "apresentadoraInicio": 5.8, "zoom": 1, "tipo": "dividida", "imagem": "imagens/apoio-1.jpg" },
+  { "duracao": 2.4, "apresentadoraInicio": 8.6, "zoom": 1, "tipo": "imagem", "imagem": "imagens/apoio-2.jpg" },
+  { "duracao": 3.0, "apresentadoraInicio": 11.0, "zoom": 1.15, "tipo": "pessoa" }
+ ],
+ "gancho": {
+  "imagens": ["imagens/gancho-1.jpg", "imagens/gancho-2.jpg", "imagens/gancho-3.jpg"],
+  "titulo": "O erro que faz a sua loja\nvender menos todo mês",
+  "fim": 3.2
+ },
+ "legendas": [
+  { "texto": "e quase ninguém\npercebe", "inicio": 3.2, "fim": 4.5 },
+  { "texto": "porque ele parece\num detalhe", "inicio": 4.5, "fim": 5.8 },
+  { "texto": "mas muda tudo\nno caixa", "inicio": 5.8, "fim": 7.4 },
+  { "texto": "quando o cliente\nentra na loja", "inicio": 7.4, "fim": 8.6 },
+  { "texto": "ele decide em\npoucos segundos", "inicio": 8.6, "fim": 11.0 },
+  { "texto": "Comenta LOJA que\neu te mando", "inicio": 11.0, "fim": 14.0 }
+ ],
+ "cta": { "texto": "Comenta: LOJA", "inicio": 11.0 },
+ "legendaTopo": 1180,
+ "legendaTopoDividida": 980
+}
